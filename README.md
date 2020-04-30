@@ -21,5 +21,4 @@ Here is a link to the website:https://stephenremmi.github.io/IP4/
 In case of any trouble with the API email me at:stephenremmi@gmail.com
 Feel free to make changes.
 
-## Screenshots
-/home/remmi/Documents/IP4/img/sc1.png
+
