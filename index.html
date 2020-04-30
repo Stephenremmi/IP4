@@ -3,11 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>BUENO PIZZA</title>
-		<link rel="shortcut icon" href="pizza.png" type="image/png">
+		<title>pizzariaKenya</title>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256=WpOohJOqMqqyKL9fFccASB900kwCQJpFTUBLTYOVvV="
+crossorigin="anonymous"></script>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Pacifico&display=swap" rel="stylesheet">
+
 	</head>
 	<body>
 		<div class="header">
@@ -16,10 +19,12 @@
 			<p class="font">Welcome to your number one stop for amazing pizza</p>
 		</div>
 		<div class="card card1">
-			<h3><b>PIZZA PRICES</b></h3>
-			<p>Small pizza with any crust = 600KES</p>
-			<p>Medium pizza with any crust = 800KES</p>
-			<p>Large pizza with any crust = 1000KES</p>
+			<h3><b>PLAIN PIZZA PRICES</b></h3>
+			<p>Small pizza = 600KES</p>
+			<p>Medium pizza = 800KES</p>
+			<p>Large pizza = 1000KES</p>
+			<h3><b>CRUST</b></h3>
+			<p>All pizza crust = 200KES each</p>
 			<h3><b>TOPPINGS</b></h3>
 			<p>All pizza toppings = 200KES each</p>
 		</div><br><br>
@@ -137,7 +142,7 @@
 								</div>
 							</div><br>
 					<div>
-						<button type="button" class="btn" id="sendButton">Send message</button>
+						<input type="button"  id="order" value="order">
 						
 					</div>
 				</div><br>
@@ -145,7 +150,7 @@
 				<div id="cart"></div><br>
 				<div>
 					
-					<input type="button" onclick="buttonclick()" id="order" value="order">
+					<input type="button" onclick="buttonclick()" id="checkout" value="checkout">
 				</div>
 			</form>
 			<!--To order more pizzas repeat the whole process-->
@@ -153,6 +158,6 @@
 		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 		<script src="js/jquery.js" type="text/javascript"></script>
 		<script src="js/scripts.js" type="text/javascript"></script>
-		<script src="js/scripts1.js" type="text/javascript"></script>
+		
 	</body>
 </html>
