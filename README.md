@@ -22,8 +22,8 @@ In case of any trouble with the API email me at:stephenremmi@gmail.com
 Feel free to make changes.
 
 ## Screenshots
-![](image/sc1.png)
-![](image/sc2.png)
-![](image/sc3.png)
-![](image/sc4.png)
-![](image/sc5.png)
+![](img/sc1.png)
+![](img/sc2.png)
+![](img/sc3.png)
+![](img/sc4.png)
+![](img/sc5.png)
